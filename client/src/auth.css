@@ -1,0 +1,64 @@
+.login_panel {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 550px;
+}
+
+.login_panel .MuiCard-root {
+  margin: 22vh 0 15vh 0;
+  padding: 3% 10% 5% 10%;
+  border-radius: 10px;
+}
+
+.login_panel button {
+  text-transform: none;
+  border-radius: 25px;
+}
+
+.subnav-hide {
+  display: none !important;
+}
+
+.register_panel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 35vw;
+}
+
+/* Log In & Sign Up Responsive layout */
+@media only screen and (max-width: 576px) {
+  .login_panel {
+    width: 98%;
+  }
+  .login_panel .MuiCard-root {
+    margin: 15vh 0;
+    padding: 3% 5% 5% 5%;
+    border-radius: 10px;
+  }
+}
+
+.test {
+  color: #fb6831;
+}
+.test {
+  color: #ffc8b2;
+}
+.test {
+  color: #fb6a04;
+}
+.test {
+  color: #31c4fb;
+}
+.test {
+  color: #1976d2;
+}
+.test {
+  color: #3148ff;
+}
+.test {
+  color: #5dd461;
+  background-color: #2f2f2f;
+}

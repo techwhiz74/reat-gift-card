@@ -1,0 +1,49 @@
+.admin-profile {
+  background-color: #fce4ec;
+  padding: 20px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.admin-container {
+  margin-left: 250px;
+  padding: 1% 1%;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.create_panel {
+  padding-top: 2%;
+}
+
+.product_image {
+  width: 300px;
+  height: auto;
+  border: solid;
+  aspect-ratio: 100/140;
+}
+
+.gift_image {
+  min-width: 280px;
+  height: auto;
+  border: 1px solid;
+}
+
+.category_image {
+  aspect-ratio: 1;
+  border: 1px dashed;
+  width: 140px;
+  min-width: 100px;
+}
+
+@media only screen and (max-width: 576px) {
+  .admin-container {
+    margin: 1% 1%;
+    padding: 2% 3%;
+  }
+}
+
+.simplebar-placeholder {
+  height: 0px !important;
+}

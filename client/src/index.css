@@ -1,0 +1,391 @@
+body {
+  touch-action: manipulation;
+}
+body * {
+  font-family: Poppins, sans-serif;
+  letter-spacing: normal !important;
+}
+#text-component p {
+  font-family: inherit;
+  margin-bottom: 0;
+}
+span {
+  text-transform: none;
+  font-family: Poppins, sans-serif;
+}
+button span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+a span {
+  font-weight: bold;
+  /* font-size: 1rem; */
+}
+#logo {
+  height: 50px;
+}
+#flag {
+  height: 18px;
+}
+.header-buttons span {
+  font-weight: normal;
+}
+
+/* Landing Page */
+.mainlanding {
+  position: relative;
+  overflow: hidden;
+  /* background-image: url("../public/assets/landing/backImg.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #e1f3f5;
+  /* height: 380px; */
+}
+.mainlanding_content {
+  text-align: center;
+}
+.mainlanding .css-1ps6pg7-MuiPaper-root {
+  background-color: transparent;
+  box-shadow: none;
+}
+#bannerModal .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  background-color: transparent;
+  box-shadow: none;
+}
+.QRPanel {
+  background-color: #fff0d3;
+  padding: 50px 30px 0px 30px;
+}
+
+.underAppBar {
+  font-size: medium;
+  font-family: Poppins, sans-serif;
+  color: #050505;
+  text-align: center;
+  padding: 1%;
+  background-color: #f9eec2;
+  margin-top: 70px;
+}
+
+.bestSellers img {
+  width: 100%;
+  margin-top: 20px;
+  height: 90%;
+  border-radius: 20px;
+}
+.bi-person {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #3da9b5;
+}
+
+.cardFilters {
+  padding: 2%;
+}
+.filterCardPanel {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  padding: 5px;
+}
+.filterCardPanel span {
+  font-size: 0.9rem;
+}
+.filterCard {
+  width: 124px;
+  min-width: 124px;
+  min-height: 61px;
+  margin: 10px 6.5px;
+  text-align: center;
+  justify-content: center;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.cardText {
+  text-decoration: none;
+  padding: 0px !important;
+}
+.filterCard:hover .cardText {
+  text-decoration: underline;
+}
+.MuiCardContent-root {
+  padding: 0px !important;
+}
+.trending-cards {
+  width: 200px;
+  min-width: 197.19px;
+  padding: 5px;
+  margin: 0px 11px;
+}
+.popular-gifts {
+  width: 200px;
+  min-width: 197.19px;
+  padding: 5px;
+  margin: 0px 11px;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 10px !important;
+}
+.cardspanel {
+  margin-top: 20px;
+  width: 100%;
+}
+.cardspanel a {
+  margin-left: auto;
+}
+.card-plus-gifts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: auto;
+  width: 100%;
+  gap: 2vw;
+}
+.showmore span {
+  font-size: 1rem;
+}
+.showmore .show-more-less-clickable {
+  font-weight: bold;
+  color: #32a1ae;
+}
+.showmore p {
+  font-family: Poppins, sans-serif !important;
+}
+
+.footer-accordion {
+  border-radius: 10px !important;
+}
+.faq-accordion {
+  border-radius: 10px !important;
+  background-color: #e1f3f5 !important;
+}
+
+/* HomePage */
+
+.homeSlide {
+  font-size: medium;
+  font-family: Poppins, sans-serif;
+  color: #050505;
+  text-align: center;
+  padding: 0px;
+  background-color: #daf0ff;
+}
+.theme-container {
+  padding: 1% 1%;
+}
+.theme-Card {
+  max-width: 17%;
+  width: 100%;
+  margin: 1% 1.5%;
+  text-align: center;
+}
+.theme-Card img {
+  width: 100%;
+  aspect-ratio: 100/140;
+}
+.theme-Gift {
+  max-width: 17%;
+  width: 100%;
+  margin: 1% 1.5%;
+  text-align: center;
+  padding: 5px;
+  border: solid 1px;
+  border-radius: 10px !important;
+}
+#menu-drawer .MuiDrawer-paper {
+  width: 70%;
+}
+
+/* Account Page */
+.profile_panel {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 550px;
+  padding: 2% 0%;
+}
+#profileTabs .MuiTab-iconWrapper {
+  margin-bottom: 0 !important; /* Profile screen tabs */
+  margin-right: 5px;
+}
+@media only screen and (max-width: 576px) {
+  .profile_panel {
+    width: 98%;
+  }
+}
+.address-Card {
+  max-width: 31.33%;
+  width: 100%;
+  margin: 1% 1%;
+  padding: 1% 1% !important;
+}
+.address-Card span {
+  font-size: 0.9rem;
+}
+.address-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  padding: 0% 5%;
+}
+.delivery-address {
+  width: 98%;
+  margin: 1% 1%;
+  padding: 2% 2% !important;
+  font-size: 0.9rem;
+}
+
+.circleIcon {
+  width: fit-content;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 115, 115, 0.4);
+  padding: 5px;
+  color: rgba(0, 115, 115);
+}
+
+.searchPanel {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 5px;
+  /* border: solid 1px #0054c8; */
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 767px) {
+  /* Header */
+  .MuiToolbar-root {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  /* Landing Page */
+  .subnav,
+  .subnav-hide {
+    display: none !important;
+  }
+  h3 {
+    font-size: 1.7rem !important;
+  }
+  h4 {
+    font-size: 1.5rem !important;
+  }
+  h5 {
+    font-size: 1.2rem !important;
+  }
+
+  #logo {
+    height: 45px;
+  }
+
+  span {
+    font-size: 0.9em;
+  }
+  a span {
+    font-size: 0.9em;
+  }
+  .trending-cards {
+    min-width: 165px;
+  }
+  .popular-gifts {
+    min-width: 165px;
+  }
+
+  /* Account Page */
+
+  .MuiTabPanel-root {
+    padding: 24px 0px !important;
+  }
+  .account_panel .MuiPaper-root {
+    padding: 10px !important;
+  }
+  #profileTabs .MuiTabs-scroller {
+    overflow-x: auto !important;
+  }
+  #tablist .MuiTabs-scroller {
+    overflow: auto !important;
+  }
+
+  /* Theme Page */
+  .theme-container {
+    padding: 2% 1%;
+  }
+  .theme-Card {
+    max-width: 46%;
+    width: 100%;
+    margin: 2% 2%;
+    text-align: center;
+  }
+  .theme-Card img {
+    width: 100%;
+    aspect-ratio: 100/140;
+  }
+  .theme-Gift {
+    max-width: 46%;
+    width: 100%;
+    margin: 2% 2%;
+    text-align: center;
+  }
+
+  /* Address book */
+  .address-Card {
+    max-width: 98%;
+    width: 100%;
+    margin: 2% 1%;
+  }
+}
+
+/* MainLanding Responsive */
+
+@media only screen and (max-width: 576px) {
+  .mainlanding {
+    /* height: 480px; */
+  }
+  .mainlanding_content {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .mainlanding_content h5 {
+    font-size: 1.1rem !important;
+  }
+  #bannerModal .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    margin: 3%;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .mainlanding_content {
+    padding-top: 80px;
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  h3 {
+    font-size: 2.2rem !important;
+  }
+  h4 {
+    font-size: 1.5rem !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .mainlanding_content {
+    width: 65%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .mainlanding_content {
+    padding-top: 80px;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .mainlanding_content {
+    padding-top: 80px;
+    width: 40%;
+  }
+}
